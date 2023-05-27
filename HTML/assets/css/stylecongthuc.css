@@ -5,6 +5,18 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.header_thirddiv .header_thirddiv-input {
+  border: 1px solid;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.header_thirddiv .header_thirddiv-input .header_thirddiv-input_search {
+  border: none;
+}
+.header_thirddiv .header_thirddiv-input label i {
+  color: black;
+}
 .header {
   display: flex;
   justify-content: space-around;
@@ -85,36 +97,11 @@ header .header_seconddiv-nav .nav-list1 li:hover span,
 header .header_seconddiv-nav .nav-list2 li:hover span {
   color: chocolate;
 }
-.content .content_firstdiv-child .img_content {
-  width: 600px;
-  height: 300px;
-}
-.content_firstdiv-child #continue {
-  color: aqua;
-  border: 2px solid aqua;
-  text-align: center;
-  width: 100px;
-  height: 30px;
-  background-color: white;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.content_firstdiv-child {
-  display: flex;
-  flex-direction: column;
-}
+
 .content {
   margin-top: 15px;
 }
-.content .content_firstdiv h2 {
-  padding-bottom: 10px;
-}
-.content_firstdiv .content_firstdiv-child span {
-  padding-bottom: 15px;
-}
-.content_firstdiv .content_firstdiv-child p {
-  padding: 15px 0;
-}
+
 .main_center {
   margin: 0 auto;
   max-width: 960px;
@@ -279,6 +266,7 @@ section .section_fivediv .five_secondchild .form_table {
 }
 section {
   float: left;
+  width: 630px;
 }
 
 aside {
@@ -302,6 +290,9 @@ aside {
 .sidebar .thirdsidebar h4,
 .sidebar .fouthsidebar h4 {
   padding-top: 10px;
+}
+.sidebar .fouthsidebar {
+  padding-bottom: 20px;
 }
 .sidebar .sidebar_firstdiv a:first-child {
   padding-right: 5px;
