@@ -138,12 +138,12 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
 }
 .section_seconddiv,
 .section_thirddiv {
-  width: 650px;
+  width: 100%;
 }
 .section_seconddiv .imgsection1,
 .section_thirddiv .imgsection2,
 .section_fouthdiv .imgsection3 {
-  width: 190px;
+  width: 100%;
   height: 190px;
 }
 .section_seconddiv ul,
@@ -152,6 +152,7 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
   display: flex;
   flex-wrap: wrap;
   padding-left: 10px;
+  width: 100%;
 }
 .section_seconddiv ul li,
 .section_thirddiv ul li,
@@ -266,17 +267,18 @@ section .section_fivediv .five_secondchild .form_table {
 }
 section {
   float: left;
-  width: 630px;
+  width: 65%;
 }
 
 aside {
   float: right;
+  width: 33%;
 }
 .sidebar_firstdiv {
   display: flex;
 }
 .book {
-  width: 150px;
+  width: 100%;
   height: 170px;
   margin-top: 10px;
   margin-bottom: 10px;

@@ -96,11 +96,14 @@ header .header_seconddiv-nav .nav-list1 li:hover span,
 header .header_seconddiv-nav .nav-list2 li:hover span {
   color: chocolate;
 }
+.content_firstdiv-child div {
+  display: block;
+}
 .content .content_firstdiv-child .img_content {
-  width: 600px;
+  width: 100%;
   height: 300px;
 }
-.content_firstdiv-child #continue {
+.content_firstdiv-child .buttoncontinue {
   color: aqua;
   border: 2px solid aqua;
   text-align: center;
@@ -109,6 +112,10 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
   background-color: white;
   font-weight: 700;
   margin-bottom: 20px;
+}
+.content_firstdiv-child .buttoncontinue:hover {
+  color: white;
+  background-color: aqua;
 }
 .content_firstdiv-child {
   display: flex;
@@ -119,6 +126,9 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
 }
 .content .content_firstdiv h2 {
   padding-bottom: 10px;
+}
+.content .content_firstdiv {
+  width: 100%;
 }
 .content_firstdiv .content_firstdiv-child span {
   padding-bottom: 15px;
@@ -132,6 +142,7 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
 }
 section {
   float: left;
+  width: 65%;
 }
 section .danhsach {
   border-top: 1px solid #e1e1e1;
@@ -177,12 +188,13 @@ section .content_firstdiv-child p {
 }
 aside {
   float: right;
+  width: 33%;
 }
 .sidebar_firstdiv {
   display: flex;
 }
 .book {
-  width: 150px;
+  width: 100%;
   height: 170px;
   margin-top: 10px;
   margin-bottom: 10px;
