@@ -5,6 +5,67 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.sub-menu li a {
+  display: block;
+  position: relative;
+}
+.sub-menu li a::after {
+  content: "";
+  height: 5px;
+  width: 0;
+  background: tomato;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+.sub-menu li a:hover::after {
+  width: 100%;
+  transform: translateX(100);
+}
+aside div:nth-child(5) {
+  padding-top: 15px;
+}
+.dropdownmenulist {
+  position: relative;
+}
+.dropdownmenulist .sub-menu {
+  position: absolute;
+}
+.sub-menu {
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-3em);
+  z-index: -1;
+  background-color: white;
+  width: 270px;
+  padding-left: 15px;
+  transition: all 0.3s ease 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+}
+.sub-menu li a {
+  color: black;
+  font-weight: 400;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: 1px solid;
+  padding-top: 10px;
+}
+.sub-menu li:last-child a {
+  border: none;
+}
+.sub-menu li a:hover {
+  color: tomato;
+}
+.dropdownmenulist:hover .sub-menu {
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0);
+  transition-delay: 0s, 0s, 0.3s;
+}
 .listcachlam .noi {
   display: block;
   padding-bottom: 15px;
@@ -304,7 +365,7 @@ aside {
 .sidebar .sidebar_seconddiv .listselect,
 .sidebar .sidebar_thirddiv .listselect {
   margin-top: 10px;
-  width: 280px;
+  width: 90%;
   height: 25px;
 }
 .sidebar .fouthsidebar .sidebar_fouthdiv .sidebar_fouthdiv-child1 {
