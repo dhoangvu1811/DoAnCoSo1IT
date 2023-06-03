@@ -16,68 +16,131 @@
   </head>
   <body>
     <div class="wrap">
-      <header class="header">
-        <div class="header_firstdiv">
-          <a href="#" class="logo"><span>Vietnamese cuisine</span></a>
-        </div>
-        <div class="header_seconddiv">
-          <nav class="header_seconddiv-nav">
-            <ul class="nav-list1">
+      <header class="header container-fluid">
+        <div class="row">
+          <div class="header_firstdiv col-sm-10 col-md-10 col-lg-2">
+            <a href="#" class="logo"
+              ><span>Vietnamese</span> <span>Cuisine</span></a
+            >
+          </div>
+          <div class="header_seconddiv d-none d-lg-flex col-lg-8">
+            <nav class="header_seconddiv-nav">
+              <ul class="nav-list1">
+                <li>
+                  <a href="./../index.html"><span>THÔNG TIN</span></a>
+                </li>
+                <li>
+                  <a href="./congthuc.html"><span>DANH MỤC CÔNG THỨC</span></a>
+                </li>
+                <li class="dropdownmenulist">
+                  <a href="#"
+                    ><span
+                      >MÓN ĂN NỔI BẬC <i class="fas fa-angle-down"></i></span
+                  ></a>
+                  <ul class="sub-menu">
+                    <li><a href="./pho.html">PHỞ</a></li>
+                    <li><a href="./banhkhot.html">BÁNH KHỌT</a></li>
+                    <li><a href="./banhcuon.html">BÁNH CUỐN</a></li>
+                    <li><a href="./bun.html">BÚN</a></li>
+                    <li><a href="./banhmy.html">BÁNH MỲ</a></li>
+                    <li><a href="./caolau.html">CAO LẦU</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><span>GIỚI THIỆU</span></a>
+                </li>
+              </ul>
+              <ul class="nav-list2">
+                <li>
+                  <a href="#"><span>HỎI ĐÁP</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header_thirddiv d-lg-flex d-none col-lg-2">
+            <div class="header_thirddiv-input">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="header_thirddiv-input_search"
+                placeholder="Tìm kiếm" />
+              <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+          </div>
+          <label
+            for="nav-mobile-input"
+            class="iconmenu d-lg-none d-sm-flex justify-content-center align-items-center col-md-2 col-sm-2">
+            <i class="fas fa-bars fa-lg"></i>
+          </label>
+          <input
+            type="checkbox"
+            id="nav-mobile-input"
+            class="nav__input"
+            hidden />
+          <label for="nav-mobile-input" class="nav_overlay d-lg-none"></label>
+          <nav class="header_seconddiv-nav-mobile d-lg-none">
+            <label for="nav-mobile-input" class="nav_mobile-close">
+              <i class="fas fa-times fa-lg"></i>
+            </label>
+            <ul class="nav-list1-mobile">
               <li>
                 <a href="./../index.html"><span>THÔNG TIN</span></a>
               </li>
               <li>
-                <a href="./congthuc.html"><span>DANH MỤC CÔNG THỨC</span></a>
+                <a href="./../HTML/congthuc.html"
+                  ><span>DANH MỤC CÔNG THỨC</span></a
+                >
               </li>
               <li class="dropdownmenulist">
                 <a href="#"
                   ><span>MÓN ĂN NỔI BẬC <i class="fas fa-angle-down"></i></span
                 ></a>
                 <ul class="sub-menu">
-                  <li><a href="./pho.html">PHỞ</a></li>
-                  <li><a href="./banhkhot.html">BÁNH KHỌT</a></li>
-                  <li><a href="./banhcuon.html">BÁNH CUỐN</a></li>
-                  <li><a href="./bun.html">BÚN</a></li>
-                  <li><a href="./banhmy.html">BÁNH MỲ</a></li>
-                  <li><a href="./caolau.html">CAO LẦU</a></li>
+                  <li><a href="./../HTML/pho.html">PHỞ</a></li>
+                  <li><a href="./../HTML/banhkhot.html">BÁNH KHỌT</a></li>
+                  <li><a href="./../HTML/banhcuon.html">BÁNH CUỐN</a></li>
+                  <li><a href="./../HTML/bun.html">BÚN</a></li>
+                  <li><a href="./../HTML/banhmy.html">BÁNH MỲ</a></li>
+                  <li><a href="./../HTML/caolau.html">CAO LẦU</a></li>
                 </ul>
               </li>
               <li>
                 <a href="#"><span>GIỚI THIỆU</span></a>
               </li>
-            </ul>
-            <ul class="nav-list2">
               <li>
                 <a href="#"><span>HỎI ĐÁP</span></a>
               </li>
               <li>
                 <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
               </li>
+              <li>
+                <a href="#"><span>TÌM KIẾM</span></a>
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="header_thirddiv">
-          <div class="header_thirddiv-input">
-            <input
-              type="text"
-              name="search"
-              id="search"
-              class="header_thirddiv-input_search"
-              placeholder="Tìm kiếm" />
-            <label for="search"><i class="fas fa-search"></i></label>
+      </header>
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="banner col-lg-12 d-none d-sm-none d-md-none d-lg-block"></div>
+        </div>
+      </div>
+      <div class="main_center container-fluid">
+        <div class="row">
+          <div class="header_content col-12">
+            <span>
+              <a href="./../index.html">Trang chủ</a> »
+              <a href="./pho.html">Cách làm món phở</a>
+            </span>
           </div>
         </div>
-      </header>
-      <div class="banner"></div>
-      <div class="main_center">
-        <div class="header_content">
-          <span>
-            <a href="./../index.html">Trang chủ</a> »
-            <a href="./pho.html">Cách làm món phở</a>
-          </span>
-        </div>
-        <div class="content">
-          <section>
+        <div class="content row">
+          <section class="col-lg-7 col-md-7 col-sm-12">
             <div class="firstcontentdiv">
               <img src="./../Images/pho.webp" alt="" class="imgcontent1" />
               <div class="firstcontentdiv-child">
@@ -356,7 +419,7 @@
               </div>
             </div>
           </section>
-          <div class="sidebar">
+          <div class="sidebar col-lg-5 col-md-5">
             <aside>
               <div class="firstsidebar">
                 <h4>SÁCH "ẨM THỰC VIỆT NAM"</h4>
@@ -453,9 +516,10 @@
       </div>
       <div class="clear"></div>
       <div class="footer">
-        <footer>
-          <div class="footer1">
-            <div class="footer_firstdiv">
+        <footer class="container-fluid">
+          <div class="footer1 row">
+            <div
+              class="footer_firstdiv col-sm-6 col-lg-5 col-md-5 d-lg-flex flex-column align-items-center">
               <div class="title">
                 <h5>LIÊN HỆ</h5>
               </div>
@@ -491,7 +555,8 @@
                 </table>
               </div>
             </div>
-            <div class="footer_seconddiv">
+            <div
+              class="footer_seconddiv col-sm-6 col-lg-3 col-md-3 d-lg-flex flex-column align-items-center">
               <div class="title">
                 <h5>TRUY CẬP NHANH</h5>
               </div>
@@ -534,7 +599,8 @@
                 </table>
               </div>
             </div>
-            <div class="footer_thirddiv">
+            <div
+              class="footer_thirddiv d-sm-none col-lg-4 col-md-4 d-lg-flex flex-column align-items-center">
               <div class="title">
                 <h5>TAG</h5>
               </div>
@@ -573,11 +639,12 @@
               </div>
             </div>
           </div>
-          <div class="footer2">
-            <div class="footer2_first">
+          <div class="footer2 row">
+            <div class="footer2_first col-lg-9 col-md-9">
               <span> © 2023 ,All Rights Reserved. Designed by ĐHVok </span>
             </div>
-            <div class="footer2_second">
+            <div
+              class="footer2_second col-lg-3 col-md-3 d-lg-flex justify-content-center align-items-center">
               <i class="fas fa-globe"></i> <span>Online: 10,</span>
               <i class="fas fa-users"></i>
               <span>Tổng truy cập: 50</span>
