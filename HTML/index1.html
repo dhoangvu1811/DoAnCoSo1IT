@@ -52,10 +52,10 @@
               </ul>
               <ul class="nav-list2">
                 <li>
-                  <a href="#"><span>HỎI ĐÁP</span></a>
+                  <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
                 </li>
                 <li>
-                  <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
+                  <a href="./login.html"><span>NGƯỜI DÙNG</span></a>
                 </li>
               </ul>
             </nav>
@@ -112,13 +112,18 @@
                 <a href="#"><span>GIỚI THIỆU</span></a>
               </li>
               <li>
-                <a href="#"><span>HỎI ĐÁP</span></a>
-              </li>
-              <li>
                 <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
               </li>
               <li>
-                <a href="#"><span>TÌM KIẾM</span></a>
+                <a href="./login.html"><span>NGƯỜI DÙNG</span></a>
+              </li>
+              <li>
+                <div class="search-box">
+                  <input class="search-box__input" type="text" name="" id="" />
+                  <button class="search-box__btn">
+                    <i class="fas fa-search fa-lg"></i>
+                  </button>
+                </div>
               </li>
             </ul>
           </nav>
@@ -160,13 +165,8 @@
                   khiến món bún chả trở nên nổi tiếng hơn nữa.
                 </p>
                 <a href="./bun.html"
-                  ><input
-                    type="button"
-                    name="continue"
-                    id="continue1"
-                    class="buttoncontinue"
-                    value="XEM TIẾP →"
-                /></a>
+                  ><button class="buttoncontinue">XEM TIẾP →</button></a
+                >
               </div>
             </div>
             <div class="content_firstdiv">
@@ -193,13 +193,8 @@
                   nóng, khi kẹp bánh mì thường được đi kèm với rau sống.
                 </p>
                 <a href="./banhmy.html"
-                  ><input
-                    type="button"
-                    name="continue"
-                    id="continue2"
-                    class="buttoncontinue"
-                    value="XEM TIẾP →"
-                /></a>
+                  ><button class="buttoncontinue">XEM TIẾP →</button></a
+                >
               </div>
             </div>
             <div class="content_firstdiv">
@@ -227,13 +222,8 @@
                   họ.
                 </p>
                 <a href="./caolau.html"
-                  ><input
-                    type="button"
-                    name="continue"
-                    id="continue3"
-                    class="buttoncontinue"
-                    value="XEM TIẾP →"
-                /></a>
+                  ><button class="buttoncontinue">XEM TIẾP →</button></a
+                >
               </div>
             </div>
             <div class="danhsach">
@@ -518,29 +508,7 @@
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop()) {
-            $("header").addClass("sticky");
-          } else {
-            $("header").removeClass("sticky");
-          }
-        });
-      });
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop()) {
-            $(".backtop").fadeIn();
-          } else {
-            $(".backtop").fadeOut();
-          }
-        });
-        $(".backtop").click(function () {
-          $("html,body").animate({ scrollTop: 0 }, 500);
-        });
-      });
-    </script>
+    <script src="./../Script/scriptchung.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   </body>
