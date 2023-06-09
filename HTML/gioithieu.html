@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/stylegioithieu.css" />
+    <title>Vietnamese Cuisine</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header container-fluid">
+        <div class="row">
+          <div class="header_firstdiv col-sm-10 col-md-10 col-lg-2">
+            <a href="#" class="logo"
+              ><span>Vietnamese</span> <span>Cuisine</span></a
+            >
+          </div>
+          <div class="header_seconddiv d-none d-lg-flex col-lg-8">
+            <nav class="header_seconddiv-nav">
+              <ul class="nav-list1">
+                <li>
+                  <a href="./../index.html"><span>THÔNG TIN</span></a>
+                </li>
+                <li>
+                  <a href="./congthuc.html"><span>DANH MỤC CÔNG THỨC</span></a>
+                </li>
+                <li class="dropdownmenulist">
+                  <a href="#"
+                    ><span
+                      >MÓN ĂN NỔI BẬC <i class="fas fa-angle-down"></i></span
+                  ></a>
+                  <ul class="sub-menu">
+                    <li><a href="./pho.html">PHỞ</a></li>
+                    <li><a href="./banhkhot.html">BÁNH KHỌT</a></li>
+                    <li><a href="./banhcuon.html">BÁNH CUỐN</a></li>
+                    <li><a href="./bun.html">BÚN</a></li>
+                    <li><a href="./banhmy.html">BÁNH MỲ</a></li>
+                    <li><a href="./caolau.html">CAO LẦU</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="./gioithieu.html"><span>GIỚI THIỆU</span></a>
+                </li>
+              </ul>
+              <ul class="nav-list2">
+                <li>
+                  <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
+                </li>
+                <li>
+                  <a href="./login.html"><span>NGƯỜI DÙNG</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header_thirddiv d-lg-flex d-none col-lg-2">
+            <div class="header_thirddiv-input">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="header_thirddiv-input_search"
+                placeholder="Tìm kiếm" />
+              <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+          </div>
+          <label
+            for="nav-mobile-input"
+            class="iconmenu d-lg-none d-sm-flex justify-content-center align-items-center col-md-2 col-sm-2">
+            <i class="fas fa-bars fa-lg"></i>
+          </label>
+          <input
+            type="checkbox"
+            id="nav-mobile-input"
+            class="nav__input"
+            hidden />
+          <label for="nav-mobile-input" class="nav_overlay d-lg-none"></label>
+          <nav class="header_seconddiv-nav-mobile d-lg-none">
+            <label for="nav-mobile-input" class="nav_mobile-close">
+              <i class="fas fa-times fa-lg"></i>
+            </label>
+            <ul class="nav-list1-mobile">
+              <li>
+                <a href="./../index.html"><span>THÔNG TIN</span></a>
+              </li>
+              <li>
+                <a href="./congthuc.html"><span>DANH MỤC CÔNG THỨC</span></a>
+              </li>
+              <li class="dropdownmenulist">
+                <a href="#"
+                  ><span>MÓN ĂN NỔI BẬC <i class="fas fa-angle-down"></i></span
+                ></a>
+                <ul class="sub-menu">
+                  <li><a href="./pho.html">PHỞ</a></li>
+                  <li><a href="./banhkhot.html">BÁNH KHỌT</a></li>
+                  <li><a href="./banhcuon.html">BÁNH CUỐN</a></li>
+                  <li><a href="./bun.html">BÚN</a></li>
+                  <li><a href="./banhmy.html">BÁNH MỲ</a></li>
+                  <li><a href="./caolau.html">CAO LẦU</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./gioithieu.html"><span>GIỚI THIỆU</span></a>
+              </li>
+              <li>
+                <a href="#"><span>BẢN QUYỀN - LIÊN HỆ</span></a>
+              </li>
+              <li>
+                <a href="./login.html"><span>NGƯỜI DÙNG</span></a>
+              </li>
+              <li>
+                <div class="search-box">
+                  <input class="search-box__input" type="text" name="" id="" />
+                  <button class="search-box__btn">
+                    <i class="fas fa-search fa-lg"></i>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="banner col-lg-12 d-none d-sm-none d-md-none d-lg-block"></div>
+        </div>
+      </div>
+      <div class="main_center container-fluid">
+        <div class="row">
+          <div class="header_content col-12">
+            <span>
+              <a href="./../index.html">Trang chủ</a> »
+              <a href="./gioithieu.html">Giới thiệu</a>
+            </span>
+          </div>
+        </div>
+        <div class="main_center__divfirst">
+          <div class="main">
+            <img src="./../Images/Pho-Bo_2.jpg" alt="" class="img-feature" />
+            <div class="control prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="control next"><i class="fas fa-chevron-right"></i></div>
+          </div>
+          <div class="list-image">
+            <div><img src="./../Images/Pho-Bo_2.jpg" alt="" /></div>
+            <div><img src="./../Images/banhkhot2.jpg" alt="" /></div>
+            <div><img src="./../Images/banhcuon.jpg" alt="" /></div>
+            <div><img src="./../Images/buncha.jpg" alt="" /></div>
+            <div><img src="./../Images/banhmy2.jpg" alt="" /></div>
+            <div><img src="./../Images/caolau.jpg" alt="" /></div>
+          </div>
+        </div>
+        <div class="main_center-divsecond row d-md-flex d-inline-block">
+          <img
+            src="./../Images/bansac.jpg"
+            alt=""
+            class="imgdivsecond col-lg-6 col-md-6" />
+          <p class="textp col-lg-6 col-md-6">
+            <strong
+              >Chào mừng đến với trang wed ẩm thực của Vietnamese
+              Cuisine</strong
+            >
+            <br />
+            Xin chào! Rất vui được gặp bạn. Tôi rất cảm kích vì bạn đã ghé thăm
+            Vietnamese Cuisine. Vietnamese Cuisine ra đời vào tháng 5 năm 2023
+            với ý tưởng ban đầu là một sổ tay nhỏ trực tuyến, nơi tôi có thể ghi
+            lại những câu chuyện nhỏ nhặt trong cuộc sống hàng ngày và đặc biệt
+            là những thành quả sau những buổi "thí nghiệm" nấu nướng của mình.
+            Dù tôi không phải là đầu bếp hay thợ làm bánh chuyên nghiệp, tôi đã
+            không quan tâm đến nấu ăn cho đến khi xa nhà để học đại học và buộc
+            phải tự mình "đối đầu với bếp" để có thức ăn. Ban đầu, nấu ăn chỉ là
+            một việc buộc phải, nhưng dần dần nó trở thành một cách để thư giãn
+            sau những giờ học căng thẳng và rồi từ đó, tôi đắm chìm và nghiện
+            nấu ăn mà không hay biết từ khi nào.
+            <br />
+            Rất mong rằng bạn sẽ thích những nội dung mà Vietnamese Cuisine mang
+            đến. Nếu có bất kỳ câu hỏi hoặc yêu cầu nào, đừng ngần ngại liên hệ
+            với tôi. Tôi sẽ sẵn lòng giúp đỡ!
+          </p>
+        </div>
+        <div class="main_center-divthird row w-100">
+          <div class="card col-lg-6">
+            <div class="card__img">
+              <img src="./../Images/card.png" alt="" />
+            </div>
+            <h2>Hoàng Vũ</h2>
+            <p>Developer</p>
+            <div class="card__social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <button>Contact me</button>
+          </div>
+          <div class="card col-lg-6">
+            <div class="card__img">
+              <img src="./../Images/card.png" alt="" />
+            </div>
+            <h2>Minh Quân</h2>
+            <p>Developer</p>
+            <div class="card__social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <button>Contact me</button>
+          </div>
+        </div>
+        <div class="main_center-lastdiv">
+          <div class="section_fivediv">
+            <div class="fivediv_firstchild">
+              <h5>TRẢ LỜI</h5>
+            </div>
+            <div class="five_secondchild">
+              <form action="">
+                <table class="form_table">
+                  <tr>
+                    <td>
+                      <label for="comment"> <span>Bình luận</span></label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <textarea
+                        name="comment"
+                        id="comment"
+                        cols="75"
+                        rows="10"
+                        maxlength="65525"
+                        required></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="name"
+                        required
+                        class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="name">Name(*)</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        required
+                        placeholder="Email"
+                        class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="email"
+                        >Email (will not be published) (required)</label
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        name="web"
+                        id="web"
+                        placeholder="Website"
+                        class="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="web">Website</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="submit"
+                        name="send"
+                        id="send"
+                        class="button" />
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="footer">
+        <footer class="container-fluid">
+          <div class="footer1 row">
+            <div
+              class="footer_firstdiv col-sm-6 col-lg-5 col-md-5 d-lg-flex flex-column align-items-center">
+              <div class="title">
+                <h5>LIÊN HỆ</h5>
+              </div>
+              <div class="tablefooter-first">
+                <table>
+                  <tr>
+                    <td>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span
+                        >Địa chỉ: 470 Đường Trần Đại Nghĩa, Khu đô thị, Ngũ Hành
+                        Sơn, Đà Nẵng</span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-phone fa-rotate-90"></i>
+                      <span>Điện thoại: 0984324174</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fab fa-facebook-f"></i>
+                      <span> Mạng xã hội: <a href="#">Hoàng Vũ</a> </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-envelope"></i>
+                      <span>Email: <a href="#">vudh.22itb@vku.udn.vn</a></span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div
+              class="footer_seconddiv col-sm-6 col-lg-3 col-md-3 d-lg-flex flex-column align-items-center">
+              <div class="title">
+                <h5>TRUY CẬP NHANH</h5>
+              </div>
+              <div class="tablefooter-second">
+                <table>
+                  <tr>
+                    <td>
+                      <span> <a href="./../index.html"> > THÔNG TIN</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>
+                        <a href="./congthuc.html">
+                          > DANH MỤC CÔNG THỨC</a
+                        ></span
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span> <a href="#"> > MÓN ĂN NỔI BẬC</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span> <a href="./gioithieu.html"> > GIỚI THIỆU</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span> <a href="#"> > BẢN QUYỀN - LIÊN HỆ</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span> <a href="./login.html"> > NGƯỜI DÙNG</a></span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div
+              class="footer_thirddiv d-sm-none col-lg-4 col-md-4 d-lg-flex flex-column align-items-center">
+              <div class="title">
+                <h5>TAG</h5>
+              </div>
+              <div class="tablefooter-third">
+                <table class="childfooter-third">
+                  <tr>
+                    <td>
+                      <div><span>làm bánh</span></div>
+                      <div style="width: 90px"><span>món Việt Nam</span></div>
+                      <div><span>đơn giản</span></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div><span>bánh mỳ</span></div>
+                      <div><span>thịt lợn</span></div>
+                      <div><span>bánh quy</span></div>
+                      <div><span>thịt gà</span></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="width: 90px"><span>tráng miệng</span></div>
+                      <div><span>ngon </span></div>
+                      <div><span>mát</span></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div><span>hoa quả</span></div>
+                      <div><span>rau</span></div>
+                      <div><span>thịt bò</span></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="footer2 row">
+            <div class="footer2_first col-lg-9 col-md-9">
+              <span> © 2023 ,All Rights Reserved. Designed by ĐHVok </span>
+            </div>
+            <div
+              class="footer2_second col-lg-3 col-md-3 d-lg-flex justify-content-center align-items-center">
+              <i class="fas fa-globe"></i> <span>Online: 10,</span>
+              <i class="fas fa-users"></i>
+              <span>Tổng truy cập: 50</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="./../Script/scriptgioithieu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
