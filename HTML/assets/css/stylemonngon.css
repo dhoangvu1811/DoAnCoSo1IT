@@ -5,7 +5,6 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .search-box {
   background-color: #000;
   width: 60px;
@@ -277,59 +276,99 @@ header .header_seconddiv-nav .nav-list2 li:hover span {
 }
 .main_center {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1110px;
 }
-section {
-  float: left;
-  width: 65%;
+.main_center .header_content {
+  border-bottom: 1px solid #c899b1;
 }
-section .danhsach {
-  border-top: 1px solid #e1e1e1;
-  display: flex;
-  justify-content: center;
+.main_center .header_content span {
+  display: block;
+  padding: 10px 0;
 }
-
-section .danhsach .danhsach_div1,
-.danhsach_div2,
-.danhsach_div4,
-.danhsach_div5 {
-  padding: 30px 0;
+.main_center h4,
+h3 {
+  color: #ff7e84;
 }
-section .danhsach .danhsach_div3 {
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 40px;
-}
-/* section .danhsach .danhsach_div3 span {
-  padding-top: 5px;
-} */
-section .danhsach .danhsach_div1,
-.danhsach_div4 {
-  padding-right: 8px;
-}
-section .danhsach .danhsach_div1 div,
-section .danhsach .danhsach_div2 div,
-section .danhsach .danhsach_div4 div,
-section .danhsach .danhsach_div5 div {
-  border: 1px solid;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-}
-section .danhsach a {
+.main_center .header_content span a {
   text-decoration: none;
+  color: #000;
 }
-section .content_firstdiv-child p {
+section .section_nhatdiv p {
   text-align: justify;
 }
-section h2 {
+section .section_nhatdiv p strong {
   color: #ff7e84;
 }
-aside h4 {
+.title h5 {
   color: #ff7e84;
+}
+.fivediv_firstchild h5 {
+  color: #ff7e84;
+}
+.imgsectionchung {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.divimgsection {
+  overflow: hidden;
+}
+.divimgsection:hover .imgsectionchung {
+  transform: scale(1.5);
+}
+.divchild1_section {
+  padding-bottom: 20px;
+}
+.divchild1_section article {
+  box-shadow: 4px 5px 8px #a7a7a7;
+  border: 1px solid #e5e5e5;
+  height: 100%;
+}
+.divchild1_section article .divintro .title {
+  text-align: center;
+  color: #ff7e84;
+}
+.divchild1_section article .divintro .divinfo {
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+section .section_fivediv .fivediv_firstchild {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+section .section_fivediv .fivediv_firstchild h5 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+section .section_fivediv .five_secondchild .form_table {
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+section .section_fivediv .five_secondchild .form_table .text {
+  width: 190px;
+  margin: 0 10px 10px 0;
+  padding: 10px 10px;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 3px;
+}
+section .section_fivediv .five_secondchild .form_table .button {
+  font-size: 15px;
+  line-height: 1;
+  padding: 8px 20px;
+}
+section .section_fivediv .five_secondchild .form_table tr:last-child td {
+  display: flex;
+  justify-content: end;
+}
+section .section_fivediv .five_secondchild .form_table textarea {
+  border: 1.5px solid #e1e1e1;
+  border-radius: 3px;
+  width: 97%;
+  padding: 6px 7px;
+}
+section .section_fivediv .five_secondchild .form_table {
+  padding-bottom: 30px;
 }
 aside {
   float: right;

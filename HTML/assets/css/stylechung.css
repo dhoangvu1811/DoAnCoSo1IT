@@ -5,6 +5,18 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.title h5 {
+  color: #ff7e84;
+}
+.fivediv_firstchild h5 {
+  color: #ff7e84;
+}
+section h4 {
+  color: #ff7e84;
+}
+aside h4 {
+  color: #ff7e84;
+}
 .search-box {
   background-color: #000;
   width: 60px;

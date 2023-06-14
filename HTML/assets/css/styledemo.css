@@ -291,6 +291,12 @@ section {
   float: left;
   width: 65%;
 }
+section h2 {
+  color: #ff7e84;
+}
+aside h4 {
+  color: #ff7e84;
+}
 section .danhsach {
   border-top: 1px solid #e1e1e1;
   display: flex;

@@ -382,6 +382,13 @@ section {
   width: 65%;
 }
 
+section h4,
+h5 {
+  color: #ff7e84;
+}
+aside h4 {
+  color: #ff7e84;
+}
 aside {
   float: right;
   width: 90%;
