@@ -201,7 +201,7 @@ aside div:nth-child(5) {
 }
 header.sticky {
   background-color: #fff;
-  opacity: 0.9;
+  opacity: 1;
   padding: 5px 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
@@ -372,9 +372,45 @@ section .section_fivediv .five_secondchild .form_table .text {
   border-radius: 3px;
 }
 section .section_fivediv .five_secondchild .form_table .button {
-  font-size: 15px;
-  line-height: 1;
-  padding: 8px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90px;
+  height: 40px;
+  border: none;
+  padding: 0px 20px;
+  background-color: #ff7e84;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #cc6469;
+  transition-duration: 0.3s;
+}
+.svg {
+  width: 13px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: white;
+  transition-duration: 0.3s;
+}
+section .section_fivediv .five_secondchild .form_table .button:hover {
+  color: transparent;
+}
+section .section_fivediv .five_secondchild .form_table .button:hover .svg {
+  right: 45%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+  color: white;
+}
+section .section_fivediv .five_secondchild .form_table .button:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 0px rgb(140, 32, 212);
 }
 section .section_fivediv .five_secondchild .form_table tr:last-child td {
   display: flex;
